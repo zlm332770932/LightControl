@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:background="@color/darkGray"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="灯光设备"
+        android:textColor="@color/lightGray"
+        android:background="@drawable/item_bg"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/start_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始扫描"/>
+
+    <Button
+        android:id="@+id/stop_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止扫描" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/mesh_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="入网" />
+
+</LinearLayout>
